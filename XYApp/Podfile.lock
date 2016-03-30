@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (2.2.3):
+    - AFNetworking/NSURLConnection (= 2.2.3)
+    - AFNetworking/NSURLSession (= 2.2.3)
+    - AFNetworking/Reachability (= 2.2.3)
+    - AFNetworking/Security (= 2.2.3)
+    - AFNetworking/Serialization (= 2.2.3)
+    - AFNetworking/UIKit (= 2.2.3)
+  - AFNetworking/NSURLConnection (2.2.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.3)
+  - AFNetworking/Security (2.2.3)
+  - AFNetworking/Serialization (2.2.3)
+  - AFNetworking/UIKit (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.2):
+    - FMDB/standard (= 2.2)
+  - FMDB/common (2.2)
+  - FMDB/standard (2.2):
+    - FMDB/common
+  - libwebp (0.4.0):
+    - libwebp/dec (= 0.4.0)
+    - libwebp/demux (= 0.4.0)
+    - libwebp/dsp (= 0.4.0)
+    - libwebp/enc (= 0.4.0)
+    - libwebp/mux (= 0.4.0)
+    - libwebp/utils (= 0.4.0)
+    - libwebp/webp (= 0.4.0)
+  - libwebp/dec (0.4.0)
+  - libwebp/demux (0.4.0)
+  - libwebp/dsp (0.4.0)
+  - libwebp/enc (0.4.0)
+  - libwebp/mux (0.4.0)
+  - libwebp/utils (0.4.0)
+  - libwebp/webp (0.4.0)
+  - MBProgressHUD (0.8)
+  - SDWebImage/Core (3.6)
+  - SDWebImage/WebP (3.6):
+    - libwebp
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2.3)
+  - FMDB
+  - MBProgressHUD
+  - SDWebImage/WebP
+
+SPEC CHECKSUMS:
+  AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
+  FMDB: e0dd09464b4e1a1cd7fa51ea835ae821b5656865
+  libwebp: 9e42449a525ff8a43548032e0345c588ff7c4573
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  SDWebImage: 7eb273e54ca8a2e506ad9bd5e80c35b2a4d7c95e
+
+COCOAPODS: 0.39.0
