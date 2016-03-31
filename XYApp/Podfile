@@ -5,3 +5,4 @@ pod 'AFNetworking', '~> 2.2.3’
 pod 'SDWebImage/WebP'
 pod 'FMDB'
 pod 'MBProgressHUD'
+pod 'MJRefresh'

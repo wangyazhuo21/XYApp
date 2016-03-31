@@ -175,7 +175,6 @@
 				C412A0C41CABF80700A2F3C3 /* Sources */,
 				C412A0C51CABF80700A2F3C3 /* Frameworks */,
 				C412A0C61CABF80700A2F3C3 /* Resources */,
-				36DE97EBC449CAD8A803C1D3 /* Embed Pods Frameworks */,
 				2ECF33B3F5BEEEFA56A2741C /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -306,21 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		36DE97EBC449CAD8A803C1D3 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		39EA98B9C59C771CE421A9DE /* Check Pods Manifest.lock */ = {
